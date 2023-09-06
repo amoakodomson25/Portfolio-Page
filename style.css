@@ -473,6 +473,7 @@ body {
     width: 150px;
     height: 150px;
     margin: 15px auto;
+    border-radius: 8px;
   }
   .skills-wrapper {
     margin: 20px auto;
@@ -483,35 +484,38 @@ body {
   .skills-wrapper2 .skill {
     width: 70%;
     margin: 7px auto;
+    border-radius: 8px;
   }
   .project-wrapper {
     margin: 50px auto;
   }
   .project-wrapper .project {
-    width: 225px;
-    height: 200px;
-    padding: 3px;
-    margin: 7px auto;
+    width: 240px;
+    height: 270px;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 8px;
   }
   #projects {
     min-height: 90vh;
   }
 
   .project-wrapper .project .name {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 800;
     padding-top: 10px;
   }
   .project-wrapper .project .description {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     padding-top: 10px;
   }
   .project-wrapper .project .links {
-    bottom: 0px;
+    bottom: 15px;
   }
   .project-wrapper .project .links a {
-    font-size: 25px;
+    font-size: 30px;
+    margin: 0 5px;
   }
   .contacts {
     width: 100%;
