@@ -462,10 +462,25 @@ body {
     height: 400px;
   }
 
+  .myself-wrapper .myself-info {
+    line-height: 34px;
+  }
+
+  .myself-wrapper .myself-info h1,
+  #skill h1,
+  #projects h1 {
+    font-size: 28px;
+  }
+  .myself-wrapper .myself-info p,
+  #skills p,
+  #projects p {
+    font-size: 20px;
+  }
+
   .myself-wrapper .myself-info,
   #skills,
   #projects {
-    width: 80%;
+    width: 85%;
     text-align: center;
     margin: 50px auto;
   }
@@ -474,6 +489,7 @@ body {
     height: 150px;
     margin: 15px auto;
     border-radius: 8px;
+    font-size: 20px;
   }
   .skills-wrapper {
     margin: 20px auto;
@@ -486,6 +502,10 @@ body {
     height: 70px;
     margin: 10px auto;
     border-radius: 8px;
+  }
+  .skills-wrapper2 .skill .skill-name {
+    margin-left: 7px;
+    font-size: 20px;
   }
   .project-wrapper {
     margin: 50px auto;
@@ -525,7 +545,7 @@ body {
     bottom: 10px;
   }
   .contacts .contacts-wrapper a {
-    font-size: 25px;
+    font-size: 35px;
     margin: 0 3px;
   }
 }
