@@ -121,7 +121,7 @@ body {
   opacity: 1;
 }
 .hammen {
-  background-color: #ffffff;
+  background-color: #fff;
   position: fixed;
   top: 50px;
   width: 100%;
@@ -166,7 +166,7 @@ body {
 .hammen .ham-contacts a {
   width: 40px;
   height: 40px;
-  margin: 0 auto;
+  margin: -15px 5px;
 }
 .ham {
   display: none;
@@ -348,7 +348,7 @@ body {
   border: 1px solid #979797aa;
   padding: 15px;
   text-align: center;
-  margin: 0 10px;
+  margin: 10px 5px;
   position: relative;
   -moz-box-shadow: 0 5px 5px #b6b6b650;
   -webkit-box-shadow: 0 5px 5px #b6b6b650;
@@ -457,14 +457,18 @@ body {
   }
   .myself-wrapper .myself-image {
     margin: 20px auto;
+    width: 100%;
   }
   .myself-wrapper .myself-image img {
-    width: 370px;
+    width: 400px;
     height: 400px;
   }
 
   .myself-wrapper .myself-info {
     line-height: 34px;
+  }
+  .myself-wrapper .myself-info p {
+    margin-bottom: 50px;
   }
 
   .myself-wrapper .myself-info h1,
