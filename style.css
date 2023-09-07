@@ -339,6 +339,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .project-wrapper .project {
