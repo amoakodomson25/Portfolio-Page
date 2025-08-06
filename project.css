@@ -55,7 +55,7 @@ body {
 }
 .navbar .nav ul li a {
   height: 100%;
-  padding: 0 10px;
+  padding: 0 8px;
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
@@ -219,7 +219,7 @@ ul li ul:hover {
   color: #555;
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .breadcrumb li a.active,
